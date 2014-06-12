@@ -24,7 +24,7 @@ the whole project.
 *********************/
 
 // normalize: http://necolas.github.io/normalize.css/
-@import "partials/normalize";
+
 
 // Sass variables
 @import "partials/variables";
@@ -41,9 +41,13 @@ the whole project.
 // the grid
 @import "partials/grid";
 
-// Susy grid
+// Compass Framework
 
+@import "compass";
 
+// Susy Grid Framework
+
+@import "susy";
 
 
 /*********************

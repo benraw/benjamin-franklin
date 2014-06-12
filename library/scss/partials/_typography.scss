@@ -30,28 +30,141 @@ FONT FACE (IN YOUR FACE)
 
 
 @font-face {
-      font-family: 'DroidSerif';
-      src: url('../fonts/DroidSerif.eot?') format('eot');
-      src: url('../fonts/DroidSerif.eot?#iefix') format('embedded-opentype'),
-	   url('../fonts/DroidSerif.woff') format('woff'), 
-	   url('../fonts/DroidSerif.ttf')  format('truetype'),
-	   url('../fonts/DroidSerif.svg#DroidSerif') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-@font-face {
-    font-family: 'eb_garamondregular';
-    src: url('../fonts/ebgaramond-webfont.eot');
-    src: url('../fonts/ebgaramond-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ebgaramond-webfont.woff') format('woff'),
-         url('../fonts/ebgaramond-webfont.ttf') format('truetype'),
-         url('../fonts/ebgaramond-webfont.svg#eb_garamondregular') format('svg');
+    font-family: 'Merriweather';
+    src: url('../fonts/merriweather-regular.eot');
+    src: url('../fonts/merriweather-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-regular.woff') format('woff'),
+         url('../fonts/merriweather-regular.ttf') format('truetype'),
+         url('../fonts/merriweather-regular.svg#merriweather-regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/merriweather-bold.eot');
+    src: url('../fonts/merriweather-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-bold.woff') format('woff'),
+         url('../fonts/merriweather-bold.ttf') format('truetype'),
+         url('../fonts/merriweather-bold.svg#merriweather-bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/merriweather-italic.eot');
+    src: url('../fonts/merriweather-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-italic.woff') format('woff'),
+         url('../fonts/merriweather-italic.ttf') format('truetype'),
+         url('../fonts/merriweather-italic.svg#merriweather-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-BoldItalic.eot');
+    src: url('../fonts/Merriweather-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merriweather-BoldItalic.woff') format('woff'),
+         url('../fonts/Merriweather-BoldItalic.ttf') format('truetype'),
+         url('../fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-LightItalic.eot');
+    src: url('../fonts/Merriweather-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merriweather-LightItalic.woff') format('woff'),
+         url('../fonts/Merriweather-LightItalic.ttf') format('truetype'),
+         url('../fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('../fonts/MerriweatherSans-Bold.eot');
+    src: url('../fonts/MerriweatherSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MerriweatherSans-Bold.woff') format('woff'),
+         url('../fonts/MerriweatherSans-Bold.ttf') format('truetype'),
+         url('../fonts/MerriweatherSans-Bold.svg#MerriweatherSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('../fonts/MerriweatherSans-LightItalic.eot');
+    src: url('../fonts/MerriweatherSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MerriweatherSans-LightItalic.woff') format('woff'),
+         url('../fonts/MerriweatherSans-LightItalic.ttf') format('truetype'),
+         url('../fonts/MerriweatherSans-LightItalic.svg#MerriweatherSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+
+/*
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../merriweather-regular-webfont.eot');
+    src: url('../merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../merriweather-regular-webfont.woff') format('woff'),
+         url('../merriweather-regular-webfont.ttf') format('truetype'),
+         url('../merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../merriweather-italic-webfont.eot');
+    src: url('../merriweather-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../merriweather-italic-webfont.woff') format('woff'),
+         url('../merriweather-italic-webfont.ttf') format('truetype'),
+         url('../merriweather-italic-webfont.svg#merriweatheritalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../merriweather-bold-webfont.eot');
+    src: url('../merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../merriweather-bold-webfont.woff') format('woff'),
+         url('../merriweather-bold-webfont.ttf') format('truetype'),
+         url('../merriweather-bold-webfont.svg#merriweatherbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../merriweather-bolditalic-webfont.eot');
+    src: url('../merriweather-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../merriweather-bolditalic-webfont.woff') format('woff'),
+         url('../merriweather-bolditalic-webfont.ttf') format('truetype'),
+         url('../merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+*/
 
 /*
 some nice typographical defaults
@@ -79,139 +192,31 @@ p {
 }
 
 
-/*! Typebase.scss v0.1.0 | MIT License */
 
-// Typesetting variables. Edit these!
-$baseFontSize:18; // in pixels. This would result in 22px on desktop
-$baseLineHeight:1.5; // how large the line height is as a multiple of font size
-$leading:$baseLineHeight * 1rem;
-// Rate of growth for headings
-// I actually like this to be slightly smaller then the leading. Makes for tight headings.
-$scale:1.414;
 
-/* Setup */
+//////////////////////////////////////////////////////////
 
 html {
-	/* Change default typefaces here */
 	font-family: $main-font, $serif;
-	font-size: $baseFontSize / 16 * 100%;
-	// Make everything look a little nicer in webkit
-	-webkit-font-smoothing: antialiased;
-	// -webkit-text-size-adjust: auto
-	// -moz-text-size-adjust: auto
-	// -ms-text-size-adjust: auto
-	// -o-text-size-adjust: auto
-	// text-size-adjust: auto
 	color: $text-color;
 }
-/* Copy & Lists */
 
-p {
-    line-height: $leading;
-    margin-top: $leading;
-    margin-bottom: 0;
+@import "compass/typography/vertical_rhythm";
+@import "compass/layout/grid-background";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $heading-color;
 }
 
-ul,
-ol {
-    margin-top: $leading;
-    margin-bottom: $leading;
-    li {
-        line-height: $leading;
-    }
-    ul,
-    ol {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-}
 
-blockquote {
-    line-height: $leading;
-    margin-top: $leading;
-    margin-bottom: $leading;
-}
-/* Headings */
 
-h1, .h1
-h2, .h2
-h3, .h3
-h4, .h4
-h5, .h5
-h6, .h6 {
-    /* Change heading typefaces here */
-	font-family: $title-font;
-	/*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
-    	font-weight: normal;
-    	margin-top: $leading;
-    	margin-bottom: 0;
-    	line-height: $leading;
-	text-rendering: optimizelegibility;
-	
-	/* removing text decoration from all headline links */
-	a {
-		text-decoration: none;
-	}
 
-}
 
-h1, .h1 {
-	font-size: 3 * $scale * 1rem;
-	line-height: 3 * $leading;
-	margin-top: 2 * $leading;
-	letter-spacing: -2px;
-}
 
-h2, .h2 {
-    font-size: 2 * $scale * 1rem;
-    line-height: 2 * $leading;
-    margin-top: 2 * $leading;
-}
 
-h3, .h3 {
-    font-size: 1 * $scale * 1rem;
-}
-
-h4, .h4 {
-    font-size: $scale / 2 * 1rem;
-}
-
-h5, .h5 {
-    font-size: $scale / 3 * 1rem;
-}
-
-h6, .h6 {
-    font-size: $scale / 4 * 1rem;
-}
-/* Tables */
-
-table {
-    margin-top: $leading;
-    border-spacing: 0px;
-    border-collapse: collapse;
-}
-td,
-th {
-    padding: 0;
-    line-height: $baseLineHeight * $baseFontSize - 0px;
-}
-/* Code blocks */
-
-code {
-    // Forces text to constrain to the line-height. Not ideal, but works.
-    vertical-align: bottom;
-}
-/* Leading paragraph text */
-
-.lead {
-    font-size: $scale * 1rem;
-}
-/* Hug a the block above you */
-
-.hug {
-    margin-top: 0;
-}
 

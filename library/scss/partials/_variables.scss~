@@ -15,8 +15,11 @@ No one likes a mess.
 FONTS
 *********************/
 
-$main-font:              'DroidSerif';
-$title-font:		 'eb_garamondregular';
+$main-font:		'Merriweather';
+$heading-font:		inherit;
+$sans-serif:		"Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:			"Georgia", Cambria, Times New Roman, Times, serif;
+
 
 /*********************
 COLORS
@@ -29,28 +32,28 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #323944;
+$black:             #444;
 $white:             #fff;
 
-$light-gray:        #f8f9fa;
-$gray:              #eaedf2;
-$text-color:        #5c6b80;
-$meta-gray:         #9fa6b4;
+$light-grey:	    #ccc;
+$grey:	    	    #888;
+$dark-grey:	    #666;
 
-$tan:               #eceee5;
+$red:		    #C9000C;
 
-$green:             #7dd667;
+$text-color:	    $dark-grey;
+$heading-color:     $red;
 
-$orange:	    #d97203;
+$orange:	    #d97203; //#5f2d00; // #7b0c2e;
 
-$bones-pink:        #f01d4f;
+//$bones-pink:        #5f2d00; // #f01d4f;
 $blue:              #226f9f;
 
-$link-color:        $bones-pink;
+$link-color:        $blue;
 $link-hover:        darken($link-color, 9%);
 
-$border-color:      #ccc;
-$disabled-gray:     #cfcfcf;
+$border-color:      $light-grey;
+$disabled-grey:     #cfcfcf;
 
 
 /*

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MerriweatherBold';
+    src: url('merriweather-bold.eot');
+    src: url('merriweather-bold.eot') format('embedded-opentype'),
+         url('merriweather-bold.woff') format('woff'),
+         url('merriweather-bold.ttf') format('truetype'),
+         url('merriweather-bold.svg#MerriweatherBold') format('svg');
+}

@@ -12,6 +12,72 @@ come into play. Have fun!
 
 ******************************************************************/
 
+/*********************
+TYPOGRAPHY STYLES
+*********************/
+
+
+$base-font-size: 20px; // Sets the base font size
+$base-line-height: 32px; // Sets the base line height 
+$relative-font-sizing: false;
+$round-to-nearest-half-line: true; // Allows compass to round to  multiples of 0.5x line height 
+$rhythm-unit: "px"; // Sets rhythm unit to rem. Remove to use default em unit. 
+
+// Note these are custom. You have to tell compass to use them yourself 
+$h1-fz: 60px;
+$h2-fz: 36px;
+$h3-fz: 24px;
+$h4-fz: 21px;
+$h5-fz: 18px;
+$h6-fz: 16px;
+
+@include establish-baseline;
+
+h1 {
+	@include adjust-font-size-to($h1-fz);
+	letter-spacing: -2px;
+	font-weight: normal;
+	font-style: italic;
+	margin: rhythm(1) 0;
+	
+	a {
+		color: $red;
+	}
+}
+
+h2 {
+	@include adjust-font-size-to($h2-fz);
+	font-weight: normal;
+	margin: 0 0 rhythm(1) 0;
+}
+
+h3 {
+	@include adjust-font-size-to($h3-fz);
+	//line-height: $base-line-height; // Fix to avoid Compass' adjustment to a 48px line-height.
+	font-weight: bold;
+	margin: 0 0 rhythm(1) 0;
+}
+
+h4 {
+	@include adjust-font-size-to($h4-fz);
+	font-weight: bold;
+	margin: 0;
+}
+
+h5 {
+	@include adjust-font-size-to($h5-fz);
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h6 {
+	@include adjust-font-size-to($h6-fz);
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+}
+
 
 /*********************
 GENERAL STYLES
@@ -140,21 +206,21 @@ SIDEBARS & ASIDES
 *********************/
 
 .sidebar {
-	margin-top: 2.2em;
+	//margin-top: 2.2em;
 }
 
 	.widgettitle {
-		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em;
+		//border-bottom: 2px solid #444;
+		//margin-bottom: 0.75em;
 	}
 
 	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
+		//padding: 0 10px;
+		//margin: 2.2em 0;
 
 		ul {
 			li {
-				margin-bottom: 0.75em;
+				// margin-bottom: 0.75em;
 
 				&:first-child {}
 				&:last-child {}
@@ -162,7 +228,7 @@ SIDEBARS & ASIDES
 				/* deep nesting */
 
 				ul {
-					margin-top: 0.75em;
+					//margin-top: 0.75em;
 					padding-left: 1em;
 				}
 			}
